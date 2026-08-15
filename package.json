@@ -1,0 +1,12 @@
+{
+  "name": "invoiceflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/invoiceflow.test.mjs",
+    "check": "node --check app.js && node --check data.js && node tests/invoiceflow.test.mjs",
+    "build": "node scripts/build.mjs",
+    "serve": "npx serve ."
+  }
+}
